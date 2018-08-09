@@ -5,19 +5,46 @@
 }
 
 body{
-    margin-top: 0px;
+    margin-top: 0;
+    background-image: url("../images/oriental.png")
+}
+
+a{
+    border-right:  1px solid grey;
+    padding: 20px;
 }
 
 h1{
     font-size: 60px;
-    background-color: aqua;
-    padding: 0;
-    margin: 0;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 0 20px 0 20px;
+    margin: 0 50px 0 50px;
+}
+
+h2{
+    color: #4aaaa5;
+    border-bottom: 1px solid grey;
 }
 
 .topnav{
+    align-content: center;
+    padding: 0 20% 0 20%;
     float: left;
-    margin-top: 0px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
 .topnav::after{
@@ -26,6 +53,22 @@ h1{
 	display: block;
 }
 
+.profile{
+    height: 200px;
+    width: 400px;
+}
+.content{
+    align-content: center;
+    margin: 100px 25% 0 25%;
+    padding: 0 20px 20px 20px;
+    width: 960px;
+    background: white;
+    float: left;
+}
 .active{
     background-color: aqua;
+}
+
+p{
+    color: #777777;
 }
