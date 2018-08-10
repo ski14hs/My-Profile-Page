@@ -24,9 +24,15 @@ h1{
 
 h2{
     color: #4aaaa5;
-    border-bottom: 1px solid grey;
+    border-bottom: 3px solid #cccccc;
+    width: 100%;
+    padding: 10px 0 20px 0  ;
 }
 
+a{
+    float: left;
+    right: 20px;
+}
 .topnav{
     align-content: center;
     padding: 0 20% 0 20%;
@@ -54,9 +60,10 @@ h2{
 }
 
 .profile{
-    height: 200px;
-    width: 400px;
+    height: 30%;
+    width: 30%;
 }
+
 .content{
     align-content: center;
     margin: 100px 25% 0 25%;
@@ -71,4 +78,51 @@ h2{
 
 p{
     color: #777777;
+}
+
+.project {
+    width: 200px;
+    height: 100px;
+    float: left;
+    border: 3px solid red;
+    position: relative;
+    margin: 20px;
+}
+
+.contactForm{
+    width: 900px;
+    clear: both;
+    content: "";
+    display: block;
+}
+
+form{
+    width: 800px;
+    margin: 20px;
+}
+
+input{
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+textarea{
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.submit{
+    background-color: #4aaaa5;
+    border: 1px solid #dddddd;
+    padding: 5px 10px 5px 10px;
+    color: #ffffff;
+}
+
+.projectName{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    background-color: #4aaaa5;
+    padding: 10px 0 10px 0;
+    color: #ffffff; 
 }
