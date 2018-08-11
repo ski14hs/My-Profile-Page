@@ -67,7 +67,7 @@ a{
 
 .content{
     align-content: center;
-    margin: 100px 25% 20px 25%;
+    margin: 100px 25% 100px 25%;
     padding: 0 20px 20px 20px;
     width: 960px;
     background: white;
@@ -135,6 +135,8 @@ textarea{
     background-color: #666666;
     color: #ffffff;
     border-top: #4aaaa5 solid 5px;
-    padding: 20px 20.5% 20px 20.5%;
+    padding: 20px 0 20px 0;
     text-align: center;
+    position: fixed;
+    bottom: 0;
 }
