@@ -82,7 +82,7 @@ p{
 
 .project {
     width: 200px;
-    height: 100px;
+    height: 150px;
     float: left;
     border: 3px solid red;
     position: relative;
@@ -125,4 +125,5 @@ textarea{
     background-color: #4aaaa5;
     padding: 10px 0 10px 0;
     color: #ffffff; 
+    text-align: center;
 }
